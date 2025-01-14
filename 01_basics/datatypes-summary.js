@@ -34,7 +34,7 @@ const myFunction = function(){
 
 console.log(typeof anotherId);
 
-// https://262.ecma-international.org/5.1/#sec-11.4.3
+
 
 //***************************************************************************** Notes *****************************************************************************
 
@@ -62,5 +62,9 @@ console.log(typeof anotherId);
 // Error "object" -> typeof instance === "object"
 // Math "object" -> typeof instance === "object"
 // JSON "object" -> typeof instance === "object"
+
+// ** Links ** //
+// https://262.ecma-international.org/5.1/#sec-11.4.3
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof
 
 
