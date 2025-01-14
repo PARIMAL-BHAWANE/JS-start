@@ -391,6 +391,41 @@ console.log(gameCounter);
 
 
 
+// ** logical operators ** //
+    // 1. Logical AND (&&)
+        /* console.log(true && true); output:- true*/
+
+    // 2. Logical OR (||)
+        /* console.log(true || false); output:- true*/
+
+    // 3. Logical NOT (!)
+        /* console.log(!true); output:- false*/
+
+        // ** Bitwise operators ** //
+    // 1. Bitwise AND (&)
+        /* console.log(5 & 1); output:- 1*/
+
+    // 2. Bitwise OR (|)
+        /* console.log(5 | 1); output:- 5*/
+
+    // 3. Bitwise XOR (^)
+        /* console.log(5 ^ 1); output:- 4*/
+
+    // 4. Bitwise NOT (~)
+        /* console.log(~5); output:- -6*/
+
+    // 5. Left shift (<<)
+        /* console.log(5 << 1); output:- 10*/
+
+    // 6. Right shift (>>)
+        /* console.log(5 >> 1); output:- 2*/
+
+    // 7. Unsigned right shift (>>>)
+        /* console.log(5 >>> 1); output:- 2*/
+        
+
+
+
 // link to study
 // https://tc39.es/ecma262/multipage/abstract-operations.html#sec-type-conversion
 
