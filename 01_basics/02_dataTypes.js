@@ -56,3 +56,9 @@ console.log(typeof null); // object
     name: "John",
     age: 30
 } */
+
+ // ** links ** //
+    // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures
+    //https://tc39.es/ecma262/#sec-ecmascript-data-types-and-values
+    //https://www.w3schools.com/js/js_datatypes.asp
+    //https://www.w3schools.com/js/js_numbers.asp
