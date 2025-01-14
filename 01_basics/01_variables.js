@@ -70,3 +70,9 @@ console.table([accountId, accountEmail, accountPassword, accountCity, accountSta
 // -> JS is client side language
 // -> JS is server side language
 // -> JS is full stack language
+
+
+ // ** links ** //
+    // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures
+    //https://tc39.es/ecma262/
+    //https://www.w3schools.com/js/js_variables.asp
