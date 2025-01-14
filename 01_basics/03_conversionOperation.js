@@ -199,7 +199,195 @@ console.log(gameCounter);
         let str3 = str1 + str2;
         console.log(str3); output:- sonu parimal*/
 
+// ********************************************************************* Notes *********************************************************************
 
+// **Arithmetic operators**: //
+    // 1. Addition (+)
+        /* let num = 2;
+            console.log(num + 2); output:- 4*/
+
+    // 2. Subtraction (-)
+        /* let num = 2;
+            console.log(num - 2); output:- 0*/
+
+    // 3. Multiplication (*)
+        /* let num = 2;
+            console.log(num * 2); output:- 4*/
+
+    // 4. Division (/)
+        /* let num = 2;
+            console.log(num / 2); output:- 1*/
+
+    // 5. Exponentiation (**)
+        /* let num = 2;
+            console.log(num ** 2); output:- 4*/
+
+    // 6. Modulus (%)
+        /* let num = 2;
+            console.log(num % 2); output:- 0*/
+
+    // 7. Increment (++)
+        /* let num = 2;
+            console.log(num++); output:- 2*/
+
+    // 8. Decrement (--)
+        /* let num = 2;
+            console.log(num--); output:- 2*/
+
+    // 9. Unary negation (-)
+        /* let num = 2;
+            console.log(-num); output:- -2*/
+
+    // 10. Unary plus (+)
+        /* let num = 2;
+            console.log(+num); output:- 2*/
+
+    // 11. Unary bitwise NOT (~)
+        /* let num = 2;
+            console.log(~num); output:- -3*/
+
+    // 12. Unary logical NOT (!)
+        /* let num = 2;
+            console.log(!num); output:- false*/
+
+    // 13. String concatenation (+)
+        /* let str1 = "sonu";
+            let str2 = " parimal";
+            let str3 = str1 + str2;
+            console.log(str3); output:- sonu parimal*/
+
+// **Assignment operators**: //
+    // 1. Assignment (=)
+        /* let num = 2;
+            console.log(num); output:- 2*/
+
+    // 2. Addition assignment (+=)
+        /* let num = 2;
+            num += 2;
+            console.log(num); output:- 4*/
+
+    // 3. Subtraction assignment (-=)
+        /* let num = 2;
+            num -= 2;
+            console.log(num); output:- 0*/
+
+    // 4. Multiplication assignment (*=)
+        /* let num = 2;
+            num *= 2;
+            console.log(num); output:- 4*/
+
+    // 5. Division assignment (/=)
+        /* let num = 2;
+            num /= 2;
+            console.log(num); output:- 1*/
+
+    // 6. Exponentiation assignment (**=)
+        /* let num = 2;
+            num **= 2;
+            console.log(num); output:- 4*/
+
+    // 7. Modulus assignment (%=)
+        /* let num = 2;
+            num %= 2;
+            console.log(num); output:- 0*/
+
+    // 8. Left shift assignment (<<=)
+        /* let num = 2;
+            num <<= 2;
+            console.log(num); output:- 8*/
+
+    // 9. Right shift assignment (>>=)
+        /* let num = 2;
+            num >>= 2;
+            console.log(num); output:- 0*/
+
+    // 10. Unsigned right shift assignment (>>>=)
+        /* let num = 2;
+            num >>>= 2;
+            console.log(num); output:- 0*/
+
+    // 11. Bitwise AND assignment (&=)
+        /* let num = 2;
+            num &= 2;
+            console.log(num); output :- 2*/
+
+    // 12. Bitwise XOR assignment (^=)
+        /* let num = 2;
+            num ^= 2;
+            console.log(num); output:- 0*/  
+
+    // 13. Bitwise OR assignment (|=)
+        /* let num = 2;
+            num |= 2;
+            console.log(num); output:- 2*/
+
+// **Prefix and Postfix Operators**: //
+    // 1. Prefix increment (++num)
+        /* let num = 2;
+            console.log(++num); output:- 3*/
+
+    // 2. Postfix increment (num++)
+        /* let num = 2;
+            console.log(num++); output:- 2*/
+
+    // 3. Prefix decrement (--num)
+        /* let num = 2;
+            console.log(--num); output:- 1*/
+
+    // 4. Postfix decrement (num--)
+        /* let num = 2;
+            console.log(num--); output:- 2*/
+
+
+// **Comparison operators**: //
+    // 1. Equal (==)
+        /* console.log(2 == 1); output:- false*/
+
+    // 2. Not equal (!=)
+        /* console.log(2 != 1); output:- true*/
+
+    // 3. Strict equal (===)
+        /* console.log(2 === 1); output:- false*/ 
+        /* console.log("2" === 2); output:- false*/ // whene we use strict equal it will also check the type of the value
+
+    // 4. Strict not equal (!==)
+        /* console.log(2 !== 1); output:- true*/
+
+    // 5. Greater than (>)
+        /* console.log(2 > 1); output:- true*/
+
+    // 6. Greater than or equal (>=)
+        /* console.log(2 >= 1); output:- true*/
+
+    // 7. Less than (<)
+        /* console.log(2 < 1); output:- false*/
+
+    // 8. Less than or equal (<=)
+        /* console.log(2 <= 1); output:- false*/
+
+    // 9. Ternary (?:)
+        /* let num = 2;
+            console.log(num > 1 ? "yes" : "no"); output:- yes*/ 
+
+    // 10. Nullish coalescing (??)
+        /* let num = 2;
+            console.log(num ?? "no"); output:- 2*/
+
+    
+// **Combining the Operators**: //
+    // 1. Grouping ( )
+        /* console.log((3 + 4) * 5 % 3); output:- 2*/
+
+    // 2. Exportation **
+        /* console.log(2 ** 3); output:- 8*/
+
+    // 3. Increment ++
+        /* let num = 2;
+            console.log(num++); output:- 2*/
+
+    // 4. Decrement --
+        /* let num = 2;
+            console.log(num--); output:- 2*/
 
 
 
